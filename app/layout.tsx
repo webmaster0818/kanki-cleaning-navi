@@ -21,6 +21,7 @@ export const metadata: Metadata = {
     "換気扇クリーニングの業者比較サイト。おすすめ業者のランキング・口コミ・料金相場を徹底解説。分解洗浄からDIY方法まで換気扇掃除のすべてがわかります。",
   keywords: ["換気扇クリーニング", "換気扇掃除", "レンジフード洗浄", "ハウスクリーニング", "業者比較"],
   metadataBase: new URL("https://kanki-cleaning-navi.com"),
+  alternates: { canonical: "/" },
   openGraph: {
     type: "website",
     locale: "ja_JP",
