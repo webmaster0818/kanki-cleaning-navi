@@ -22,6 +22,9 @@ export const metadata: Metadata = {
   keywords: ["換気扇クリーニング", "換気扇掃除", "レンジフード洗浄", "ハウスクリーニング", "業者比較"],
   metadataBase: new URL("https://kanki-cleaning-navi.com"),
   alternates: { canonical: "/" },
+  twitter: {
+    card: "summary_large_image",
+  },
   openGraph: {
     type: "website",
     locale: "ja_JP",
