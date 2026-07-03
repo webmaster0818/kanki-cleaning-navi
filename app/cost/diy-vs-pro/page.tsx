@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "換気扇クリーニングDIYvsプロ比較｜費用・効果・時間を徹底比較",
   description:
     "換気扇クリーニングをDIYでやるかプロに頼むか徹底比較。費用・洗浄効果・時間・リスクの観点から最適な選択をサポートします。",
+  alternates: { canonical: "/cost/diy-vs-pro/" },
 };
 
 export default function DiyVsProPage() {

@@ -20,8 +20,7 @@ export const metadata: Metadata = {
   description:
     "換気扇クリーニングの業者比較サイト。おすすめ業者のランキング・口コミ・料金相場を徹底解説。分解洗浄からDIY方法まで換気扇掃除のすべてがわかります。",
   keywords: ["換気扇クリーニング", "換気扇掃除", "レンジフード洗浄", "ハウスクリーニング", "業者比較"],
-  metadataBase: new URL("https://kanki-cleaning-navi.com"),
-  alternates: { canonical: "/" },
+  metadataBase: new URL("https://kanki-cleaning.com"),
   twitter: {
     card: "summary_large_image",
   },
@@ -49,7 +48,7 @@ export default function RootLayout({
         <main className="flex-1">{children}
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: "{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"name\":\"清掃ナビ\",\"url\":\"https://kanki-cleaning-navi-deploy.pages.dev/\",\"logo\":\"https://kanki-cleaning-navi-deploy.pages.dev/favicon.ico\",\"publisher\":{\"@type\":\"Organization\",\"name\":\"株式会社MediaX\",\"url\":\"https://mediax.biz\"},\"sameAs\":[\"https://kanki-cleaning-navi-deploy.pages.dev/about/\"]}" }}
+          dangerouslySetInnerHTML={{ __html: "{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"name\":\"換気扇クリーニングナビ\",\"url\":\"https://kanki-cleaning.com/\",\"logo\":\"https://kanki-cleaning.com/favicon.ico\",\"publisher\":{\"@type\":\"Organization\",\"name\":\"株式会社MediaX\",\"url\":\"https://mediax.biz\"},\"sameAs\":[\"https://kanki-cleaning.com/about/\"]}" }}
         />
         </main>
         <SiteFooter />

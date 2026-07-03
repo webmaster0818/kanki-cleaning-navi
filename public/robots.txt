@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://kanki-cleaning-navi.com/sitemap.xml
+Sitemap: https://kanki-cleaning.com/sitemap.xml

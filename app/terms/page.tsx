@@ -4,6 +4,7 @@ import Breadcrumb from "@/app/components/Breadcrumb";
 export const metadata: Metadata = {
   title: "利用規約",
   description: "換気扇クリーニングナビの利用規約をご確認ください。",
+  alternates: { canonical: "/terms/" },
 };
 
 export default function TermsPage() {

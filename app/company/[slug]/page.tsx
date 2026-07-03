@@ -19,6 +19,7 @@ export async function generateMetadata({
   return {
     title: `${company.name}の換気扇クリーニング口コミ・評判・料金`,
     description: `${company.name}の換気扇クリーニングを徹底レビュー。料金${company.price}円〜、評価${company.rating}点。実際の口コミ${company.reviewCount.toLocaleString()}件をもとに特徴・メリット・デメリットを解説。`,
+    alternates: { canonical: `/company/${slug}/` },
   };
 }
 

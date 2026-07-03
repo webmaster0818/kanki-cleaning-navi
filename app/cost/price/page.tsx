@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "換気扇クリーニングの料金相場2025年版｜費用の目安と内訳",
   description:
     "換気扇クリーニングの料金相場を詳しく解説。シロッコファン・プロペラファン・レンジフードの種類別価格、追加費用、節約方法まで徹底解説。",
+  alternates: { canonical: "/cost/price/" },
 };
 
 const priceData = [

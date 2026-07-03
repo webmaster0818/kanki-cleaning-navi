@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "換気扇クリーニング安い業者ランキング｜料金比較2025年版",
   description:
     "換気扇クリーニングが安い業者ランキング。料金の安さを重視して比較。くらしのマーケット・ミツモアなど低価格業者を徹底比較。",
+  alternates: { canonical: "/ranking/cheap/" },
 };
 
 // Sort by price (ascending), treating range prices by extracting first number

@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "換気扇クリーニング業者おすすめランキング2025年版",
   description:
     "換気扇クリーニング業者のおすすめランキング。おそうじ本舗・ダスキン・カジタクなど10社を口コミ・料金・対応エリアで徹底比較。",
+  alternates: { canonical: "/ranking/" },
 };
 
 export default function RankingPage() {

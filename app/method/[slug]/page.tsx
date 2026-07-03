@@ -19,6 +19,7 @@ export async function generateMetadata({
   return {
     title: method.title,
     description: method.description,
+    alternates: { canonical: `/method/${slug}/` },
   };
 }
 

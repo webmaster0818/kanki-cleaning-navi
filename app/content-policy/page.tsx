@@ -4,6 +4,7 @@ import Breadcrumb from "@/app/components/Breadcrumb";
 export const metadata: Metadata = {
   title: "コンテンツポリシー",
   description: "換気扇クリーニングナビのコンテンツポリシーをご確認ください。",
+  alternates: { canonical: "/content-policy/" },
 };
 
 export default function ContentPolicyPage() {

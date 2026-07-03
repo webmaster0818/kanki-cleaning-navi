@@ -1,7 +1,12 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import companies from "@/data/companies.json";
 import types from "@/data/types.json";
 import scenes from "@/data/scenes.json";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+};
 
 export default function HomePage() {
   const topCompanies = companies.slice(0, 5);
