@@ -105,15 +105,15 @@ export default async function MethodPage({
 
       {/* Best For */}
       <div className="bg-white rounded-xl p-6 border border-sky-100 mb-8">
-        <h2 className="font-bold text-gray-800 mb-2">こんな方におすすめ</h2>
+        <h2 className="font-bold text-gray-800 mb-2">この方法が適している方</h2>
         <p className="text-gray-600 text-sm leading-relaxed">{method.bestFor}</p>
       </div>
 
       {/* CTA */}
       <div className="bg-gradient-to-r from-sky-600 to-sky-700 rounded-2xl p-8 text-white text-center">
-        <h3 className="text-xl font-bold mb-3">プロに換気扇クリーニングを依頼する</h3>
+        <h3 className="text-xl font-bold mb-3">専門業者への換気扇クリーニングの依頼</h3>
         <p className="text-sky-100 mb-6 text-sm">
-          自分での清掃が難しい場合はプロにおまかせください。
+          ご自身での清掃が難しい場合は、専門業者への依頼をご検討ください。
         </p>
         <Link
           href="/ranking/"

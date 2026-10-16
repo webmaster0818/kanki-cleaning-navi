@@ -17,15 +17,15 @@ export default function HomePage() {
       <section className="bg-gradient-to-br from-sky-600 to-sky-800 text-white py-20 px-4">
         <div className="max-w-4xl mx-auto text-center">
           <p className="text-sky-200 text-sm font-medium mb-3 tracking-widest uppercase">
-            換気扇クリーニング専門ナビ
+            換気扇クリーニングの業者比較
           </p>
           <h1 className="text-3xl md:text-5xl font-bold leading-tight mb-6">
-            換気扇の油汚れ、<br className="md:hidden" />
-            プロにおまかせ。
+            換気扇クリーニング業者の<br className="md:hidden" />
+            料金・サービス内容を比較します
           </h1>
           <p className="text-sky-100 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
-            全国対応のハウスクリーニング業者を比較。口コミ・料金・サービス内容から
-            あなたにぴったりの換気扇クリーニング業者を見つけましょう。
+            全国のハウスクリーニング業者10社について、口コミ・料金・サービス内容を整理し、
+            換気扇クリーニング業者の選定を支援します。
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
@@ -69,7 +69,7 @@ export default function HomePage() {
           <div className="flex items-center justify-between mb-8">
             <div>
               <h2 className="text-2xl font-bold text-gray-800">おすすめ業者 TOP5</h2>
-              <p className="text-gray-500 text-sm mt-1">口コミ評価・料金・対応エリアで総合評価</p>
+              <p className="text-gray-500 text-sm mt-1">口コミ評価・料金・対応エリアにもとづく総合評価</p>
             </div>
             <Link href="/ranking/" className="text-primary hover:underline text-sm font-medium">
               全ランキングを見る
@@ -124,7 +124,7 @@ export default function HomePage() {
       <section className="py-16 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl font-bold text-gray-800 mb-2">換気扇の種類から選ぶ</h2>
-          <p className="text-gray-500 text-sm mb-8">換気扇の種類によってクリーニング方法や費用が異なります</p>
+          <p className="text-gray-500 text-sm mb-8">換気扇の種類によって、クリーニングの方法や費用は異なります</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {types.map((type) => (
               <Link
@@ -160,7 +160,7 @@ export default function HomePage() {
       <section className="py-16 px-4">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl font-bold text-gray-800 mb-2">シーン別ガイド</h2>
-          <p className="text-gray-500 text-sm mb-8">状況に合わせた換気扇クリーニングの方法を解説</p>
+          <p className="text-gray-500 text-sm mb-8">状況に応じた換気扇クリーニングの方法を解説します</p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {scenes.map((scene) => (
               <Link
@@ -193,10 +193,10 @@ export default function HomePage() {
       <section className="py-16 px-4 bg-secondary">
         <div className="max-w-3xl mx-auto text-center text-white">
           <h2 className="text-2xl md:text-3xl font-bold mb-4">
-            今すぐプロに換気扇クリーニングを依頼しよう
+            換気扇クリーニングの依頼について
           </h2>
           <p className="text-orange-100 mb-8 text-lg">
-            1年以上放置した換気扇は火災リスクも。今すぐプロに相談を。
+            長期間清掃していない換気扇は、油汚れの蓄積により火災の危険性が高まるとされています。早めに専門業者へご相談ください。
           </p>
           <Link
             href="/ranking/"

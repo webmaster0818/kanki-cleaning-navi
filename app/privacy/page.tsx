@@ -3,7 +3,7 @@ import Breadcrumb from "@/app/components/Breadcrumb";
 
 export const metadata: Metadata = {
   title: "プライバシーポリシー",
-  description: "換気扇クリーニングナビのプライバシーポリシーをご確認ください。",
+  description: "換気扇クリーニングナビにおける個人情報の取り扱いについて掲載しています。",
   alternates: { canonical: "/privacy/" },
 };
 

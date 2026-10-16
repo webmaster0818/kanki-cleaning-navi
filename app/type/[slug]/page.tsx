@@ -110,9 +110,9 @@ export default async function TypePage({
 
       {/* CTA */}
       <div className="bg-gradient-to-r from-sky-600 to-sky-700 rounded-2xl p-8 text-white text-center">
-        <h3 className="text-xl font-bold mb-3">{type.name}のクリーニングはプロに相談</h3>
+        <h3 className="text-xl font-bold mb-3">{type.name}のクリーニングは専門業者へご相談ください</h3>
         <p className="text-sky-100 mb-6 text-sm">
-          DIYが難しい場合や頑固な汚れはプロへの依頼がおすすめです。
+          ご自身での清掃が難しい場合や汚れが頑固な場合は、専門業者への依頼をおすすめします。
         </p>
         <Link
           href="/ranking/"

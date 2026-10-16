@@ -3,7 +3,7 @@ import Breadcrumb from "@/app/components/Breadcrumb";
 
 export const metadata: Metadata = {
   title: "利用規約",
-  description: "換気扇クリーニングナビの利用規約をご確認ください。",
+  description: "換気扇クリーニングナビの利用条件を定めた利用規約を掲載しています。",
   alternates: { canonical: "/terms/" },
 };
 

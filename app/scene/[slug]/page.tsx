@@ -120,9 +120,9 @@ export default async function ScenePage({
 
       {/* CTA */}
       <div className="bg-gradient-to-r from-sky-600 to-sky-700 rounded-2xl p-8 text-white text-center">
-        <h3 className="text-xl font-bold mb-3">プロに換気扇クリーニングを依頼する</h3>
+        <h3 className="text-xl font-bold mb-3">専門業者への換気扇クリーニングの依頼</h3>
         <p className="text-sky-100 mb-6 text-sm">
-          {scene.name}の換気扇クリーニングはプロにおまかせください。
+          {scene.name}の換気扇クリーニングは、専門業者への依頼をご検討ください。
         </p>
         <Link
           href="/ranking/"

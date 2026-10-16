@@ -18,7 +18,7 @@ export async function generateMetadata({
   if (!company) return {};
   return {
     title: `${company.name}の換気扇クリーニング口コミ・評判・料金`,
-    description: `${company.name}の換気扇クリーニングを徹底レビュー。料金${company.price}円〜、評価${company.rating}点。実際の口コミ${company.reviewCount.toLocaleString()}件をもとに特徴・メリット・デメリットを解説。`,
+    description: `${company.name}の換気扇クリーニングの口コミ・評判を解説します。料金${company.price}円〜、評価${company.rating}点。口コミ${company.reviewCount.toLocaleString()}件をもとに、特徴・メリット・デメリットを整理しています。`,
     alternates: { canonical: `/company/${slug}/` },
   };
 }
@@ -130,7 +130,7 @@ export default async function CompanyPage({
 
       {/* Reviews */}
       <div className="bg-white rounded-xl p-6 border border-sky-100 mb-8">
-        <h2 className="text-lg font-bold text-gray-800 mb-5">実際の口コミ・評判</h2>
+        <h2 className="text-lg font-bold text-gray-800 mb-5">口コミ・評判</h2>
         <div className="space-y-4">
           {company.reviews.map((review, i) => (
             <div key={i} className="bg-sky-50 rounded-xl p-4">
@@ -174,13 +174,13 @@ export default async function CompanyPage({
           </tbody>
         </table>
         <p className="text-xs text-gray-400 mt-4">
-          ※掲載料金は目安です。現地調査・作業内容によって変動する場合があります。最新情報は公式サイトをご確認ください。
+          ※掲載料金は目安です。現地調査・作業内容によって変動する場合があります。ご利用前に、公式サイトにて最新情報をご確認ください。
         </p>
       </div>
 
       <div className="text-center">
         <Link href="/ranking/" className="text-primary hover:underline font-medium">
-          他の業者と比較する
+          その他の業者との比較
         </Link>
       </div>
     </div>

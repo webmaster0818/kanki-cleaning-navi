@@ -6,7 +6,7 @@ import companies from "@/data/companies.json";
 export const metadata: Metadata = {
   title: "換気扇クリーニング業者おすすめランキング2025年版",
   description:
-    "換気扇クリーニング業者のおすすめランキング。おそうじ本舗・ダスキン・カジタクなど10社を口コミ・料金・対応エリアで徹底比較。",
+    "換気扇クリーニング業者のおすすめランキングです。おそうじ本舗・ダスキン・カジタクなど10社を、口コミ・料金・対応エリアの観点から比較しています。",
   alternates: { canonical: "/ranking/" },
 };
 
@@ -19,12 +19,12 @@ export default function RankingPage() {
         換気扇クリーニング業者おすすめランキング2025年版
       </h1>
       <p className="text-gray-500 text-sm mb-2">
-        口コミ評価・料金・対応エリア・サービス内容から総合評価
+        口コミ評価・料金・対応エリア・サービス内容にもとづく総合評価
       </p>
       <div className="flex items-center gap-4 mb-8 text-xs text-gray-400">
         <span>更新日: 2025年1月</span>
         <Link href="/ranking/cheap/" className="text-primary hover:underline">
-          安い業者ランキングはこちら
+          料金の安い業者ランキング
         </Link>
       </div>
 
@@ -56,7 +56,7 @@ export default function RankingPage() {
                   </span>
                   {index === 0 && (
                     <span className="text-xs bg-yellow-100 text-yellow-700 font-bold px-2 py-0.5 rounded-full">
-                      編集部イチオシ
+                      編集部のおすすめ
                     </span>
                   )}
                 </div>
@@ -114,7 +114,7 @@ export default function RankingPage() {
         <h2 className="font-bold text-gray-800 mb-3">ランキングの選定基準</h2>
         <ul className="space-y-1.5 text-sm text-gray-600">
           <li>口コミ評価（複数サイトの集計）</li>
-          <li>料金の透明性・リーズナブルさ</li>
+          <li>料金の透明性・妥当性</li>
           <li>対応エリアの広さ</li>
           <li>サービス内容（分解洗浄・損害保険等）</li>
           <li>カスタマーサービスの質</li>

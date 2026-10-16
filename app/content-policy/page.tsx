@@ -3,7 +3,7 @@ import Breadcrumb from "@/app/components/Breadcrumb";
 
 export const metadata: Metadata = {
   title: "コンテンツポリシー",
-  description: "換気扇クリーニングナビのコンテンツポリシーをご確認ください。",
+  description: "換気扇クリーニングナビのコンテンツ制作方針、広告の開示、口コミの収集方針について掲載しています。",
   alternates: { canonical: "/content-policy/" },
 };
 
@@ -21,18 +21,18 @@ export default function ContentPolicyPage() {
           <p className="text-gray-600 leading-relaxed">
             換気扇クリーニングナビは、利用者が適切な換気扇クリーニング業者を選択するために必要な
             正確で有用な情報を提供することを目的としています。
-            すべてのコンテンツは、実際の調査・取材・口コミデータに基づいて制作されています。
+            すべてのコンテンツは、調査・取材・口コミデータにもとづいて制作しています。
           </p>
         </section>
 
         <section className="mb-8">
           <h2 className="text-lg font-bold text-gray-800 mb-3">E-E-A-T方針</h2>
           <p className="text-gray-600 leading-relaxed mb-3">
-            当サイトはGoogleのE-E-A-T（Experience・Expertise・Authoritativeness・Trustworthiness）の原則に基づいてコンテンツを制作しています。
+            当サイトはGoogleのE-E-A-T（Experience・Expertise・Authoritativeness・Trustworthiness）の原則にもとづいてコンテンツを制作しています。
           </p>
           <ul className="space-y-2">
             {[
-              { label: "経験（Experience）", desc: "実際のサービス調査・口コミデータを元にコンテンツを制作" },
+              { label: "経験（Experience）", desc: "サービスの調査・口コミデータをもとにコンテンツを制作" },
               { label: "専門性（Expertise）", desc: "ハウスクリーニング業界の知識を持つ担当者が監修" },
               { label: "権威性（Authoritativeness）", desc: "業界内の公的情報・公式データを参照して情報の権威性を担保" },
               { label: "信頼性（Trustworthiness）", desc: "アフィリエイト関係を明示し、中立・客観的な評価を実施" },
@@ -49,7 +49,7 @@ export default function ContentPolicyPage() {
           <h2 className="text-lg font-bold text-gray-800 mb-3">広告・アフィリエイトの開示</h2>
           <p className="text-gray-600 leading-relaxed">
             当サイトは広告収入およびアフィリエイト収入を収益源としています。
-            掲載業者のリンクには報酬を受け取る可能性のあるアフィリエイトリンクが含まれます。
+            掲載業者へのリンクには、当サイトが報酬を受け取る可能性のあるアフィリエイトリンクが含まれます。
             ただし、掲載順位・評価内容は独自の評価基準（口コミ・料金・サービス品質等）によって決定されており、
             広告収入の多寡によって順位を操作することはありません。
           </p>
@@ -60,15 +60,15 @@ export default function ContentPolicyPage() {
           <p className="text-gray-600 leading-relaxed">
             掲載情報は定期的に見直しを行い、料金・サービス内容・口コミ評価等を最新の状態に保つよう努めています。
             ただし、各業者の料金・サービス内容は随時変更される場合があります。
-            最新かつ正確な情報は必ず各業者の公式サイトにてご確認ください。
+            ご利用前に、各業者の公式サイトにて最新情報をご確認ください。
           </p>
         </section>
 
         <section className="mb-8">
           <h2 className="text-lg font-bold text-gray-800 mb-3">口コミ・評価の収集方針</h2>
           <p className="text-gray-600 leading-relaxed">
-            口コミ評価は複数の外部レビューサイト・アンケート調査等をもとに集計しています。
-            虚偽・誇大なレビューの掲載は行いません。
+            口コミ評価は、複数の外部口コミサイト・アンケート調査等をもとに集計しています。
+            虚偽・誇大な口コミの掲載は行いません。
             業者から評価向上のための対価を受け取ることはありません。
           </p>
         </section>

@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const dynamic = "force-static";
-export const alt = "清掃ナビ";
+export const alt = "換気扇クリーニングナビ";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -23,10 +23,10 @@ export default async function Image() {
         }}
       >
         <div style={{ fontSize: 96, fontWeight: 800, letterSpacing: "-0.02em", marginBottom: 24, lineHeight: 1.1 }}>
-          清掃ナビ
+換気扇クリーニングナビ
         </div>
         <div style={{ fontSize: 38, fontWeight: 500, opacity: 0.92, lineHeight: 1.3, maxWidth: 1000 }}>
-          プロのハウスクリーニング業者比較
+          換気扇クリーニング業者の比較
         </div>
         <div style={{ marginTop: 60, fontSize: 24, fontWeight: 400, opacity: 0.7 }}>
           2026年最新版

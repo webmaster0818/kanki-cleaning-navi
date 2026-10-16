@@ -16,11 +16,11 @@ export default function SiteFooter() {
               <span className="text-white font-bold text-lg">換気扇クリーニングナビ</span>
             </Link>
             <p className="text-sm text-gray-400 leading-relaxed max-w-sm">
-              換気扇クリーニングの業者選びをサポートする情報サイトです。
-              口コミ・料金・サービス内容を比較して、最適な業者をお探しください。
+              換気扇クリーニング業者の口コミ・料金・サービス内容を比較する情報サイトです。
+              各業者の情報を整理し、業者選びを支援します。
             </p>
             <p className="text-xs text-gray-500 mt-4">
-              当サイトには広告が含まれています。掲載情報は取材時点のものであり、最新情報は各業者の公式サイトにてご確認ください。
+              当サイトには広告が含まれています。掲載情報は確認時点のものです。ご利用前に、各業者の公式サイトにて最新情報をご確認ください。
             </p>
           </div>
           <div>
@@ -37,7 +37,7 @@ export default function SiteFooter() {
             <h3 className="text-white font-semibold mb-3 text-sm">お役立ち情報</h3>
             <ul className="space-y-2 text-sm">
               <li><Link href="/cost/price/" className="hover:text-white transition-colors">換気扇クリーニングの料金</Link></li>
-              <li><Link href="/cost/diy-vs-pro/" className="hover:text-white transition-colors">DIYvsプロ比較</Link></li>
+              <li><Link href="/cost/diy-vs-pro/" className="hover:text-white transition-colors">DIYと専門業者の比較</Link></li>
               <li><Link href="/type/sirocco-fan/" className="hover:text-white transition-colors">換気扇の種類</Link></li>
               <li><Link href="/method/pro-bunkai/" className="hover:text-white transition-colors">掃除方法ガイド</Link></li>
               <li><Link href="/scene/nenmatsu-oosouji/" className="hover:text-white transition-colors">年末大掃除</Link></li>
@@ -52,6 +52,7 @@ export default function SiteFooter() {
             <Link href="/terms/" className="hover:text-white transition-colors">利用規約</Link>
             <Link href="/privacy/" className="hover:text-white transition-colors">プライバシーポリシー</Link>
             <Link href="/content-policy/" className="hover:text-white transition-colors">コンテンツポリシー</Link>
+            <Link href="/about/" className="hover:text-white transition-colors">運営者情報</Link>
           </nav>
         </div>
       </div>
