@@ -37,7 +37,7 @@ export default function CheapRankingPage() {
 
       <div className="bg-orange-50 border border-orange-200 rounded-xl p-4 mb-8">
         <p className="text-sm text-orange-700">
-          <strong>注意：</strong>料金は目安です。換気扇の種類・汚れの程度・オプションによって変動します。
+          掲載している料金は目安です。換気扇の種類・汚れの程度・オプションによって変動します。
           ご依頼の前に、必ず見積もりを取ることをおすすめします。
         </p>
       </div>
