@@ -46,7 +46,7 @@ export default function SiteFooter() {
         </div>
         <div className="border-t border-gray-700 mt-10 pt-6 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-xs text-gray-500">
-            &copy; 2025 換気扇クリーニングナビ. All rights reserved.
+            &copy; 換気扇クリーニングナビ. All rights reserved.
           </p>
           <nav className="flex flex-wrap gap-4 text-xs text-gray-400">
             <Link href="/terms/" className="hover:text-white transition-colors">利用規約</Link>

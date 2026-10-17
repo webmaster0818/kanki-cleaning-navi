@@ -4,7 +4,7 @@ import Breadcrumb from "@/app/components/Breadcrumb";
 import companies from "@/data/companies.json";
 
 export const metadata: Metadata = {
-  title: "換気扇クリーニング安い業者ランキング｜料金比較2025年版",
+  title: "換気扇クリーニング安い業者ランキング｜料金比較",
   description:
     "換気扇クリーニングの料金が安い業者のランキングです。料金の安さを重視し、くらしのマーケット・ミツモアなど低価格の業者を比較しています。",
   alternates: { canonical: "/ranking/cheap/" },
@@ -31,7 +31,7 @@ export default function CheapRankingPage() {
       />
 
       <h1 className="text-2xl md:text-3xl font-bold text-gray-800 mb-2">
-        換気扇クリーニング安い業者ランキング2025年版
+        換気扇クリーニング安い業者ランキング
       </h1>
       <p className="text-gray-500 text-sm mb-8">料金の安さを重視して比較しています。費用を抑えたい方はご参照ください。</p>
 

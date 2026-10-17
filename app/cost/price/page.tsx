@@ -3,7 +3,7 @@ import Link from "next/link";
 import Breadcrumb from "@/app/components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "換気扇クリーニングの料金相場2025年版｜費用の目安と内訳",
+  title: "換気扇クリーニングの料金相場｜費用の目安と内訳",
   description:
     "換気扇クリーニングの料金相場を解説します。シロッコファン・プロペラファン・レンジフードの種類別の価格、追加費用、費用を抑える方法について整理しています。",
   alternates: { canonical: "/cost/price/" },
@@ -36,7 +36,7 @@ export default function PricePage() {
       />
 
       <h1 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4">
-        換気扇クリーニングの料金相場2025年版
+        換気扇クリーニングの料金相場
       </h1>
       <p className="text-gray-500 text-sm mb-8">
         最終更新: 2025年1月 | 全国10社の料金をもとに算出

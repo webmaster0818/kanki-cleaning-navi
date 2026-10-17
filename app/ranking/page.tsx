@@ -4,7 +4,7 @@ import Breadcrumb from "@/app/components/Breadcrumb";
 import companies from "@/data/companies.json";
 
 export const metadata: Metadata = {
-  title: "換気扇クリーニング業者おすすめランキング2025年版",
+  title: "換気扇クリーニング業者おすすめランキング",
   description:
     "換気扇クリーニング業者のおすすめランキングです。おそうじ本舗・ダスキン・カジタクなど10社を、口コミ・料金・対応エリアの観点から比較しています。",
   alternates: { canonical: "/ranking/" },
@@ -16,7 +16,7 @@ export default function RankingPage() {
       <Breadcrumb items={[{ label: "ランキング" }]} />
 
       <h1 className="text-2xl md:text-3xl font-bold text-gray-800 mb-2">
-        換気扇クリーニング業者おすすめランキング2025年版
+        換気扇クリーニング業者おすすめランキング
       </h1>
       <p className="text-gray-500 text-sm mb-2">
         口コミ評価・料金・対応エリア・サービス内容にもとづく総合評価
